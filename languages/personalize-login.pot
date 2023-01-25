@@ -1,0 +1,385 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Personalize Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02 07:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: personalize-login.php:129
+msgid "Your account has not been approved yet. Please, try again later."
+msgstr ""
+
+#: personalize-login.php:140
+msgid "You do not have the necessary access to connect. Please contact us !"
+msgstr ""
+
+#: personalize-login.php:151
+msgid "Your account is under registration. Please, try again later."
+msgstr ""
+
+#: personalize-login.php:189
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: personalize-login.php:343
+msgid "Registration successful, redirecting..."
+msgstr ""
+
+#: personalize-login.php:391
+msgid "Your account - Reset password"
+msgstr ""
+
+#: personalize-login.php:393
+msgid "Hello"
+msgstr ""
+
+#: personalize-login.php:394
+msgid "You have requested a new password for your account."
+msgstr ""
+
+#: personalize-login.php:395
+msgid "You can generate your password by clicking the button below."
+msgstr ""
+
+#: personalize-login.php:396
+msgid "Get my password"
+msgstr ""
+
+#: personalize-login.php:397
+msgid ""
+"If the button does not work, you can copy / paste the link below into your "
+"browser."
+msgstr ""
+
+#: personalize-login.php:399
+msgid "Thank you for your trust,"
+msgstr ""
+
+#: personalize-login.php:400
+msgid "The team of Ungestepourlamer"
+msgstr ""
+
+#: personalize-login.php:409
+msgid "An email with the password creation link has been sent."
+msgstr ""
+
+#: personalize-login.php:493 templates/login_form.php:32
+#: templates/_login_form.php:32
+msgid "Password successfully changed, you can now use it to login"
+msgstr ""
+
+#: personalize-login.php:551
+msgid "Edit profile"
+msgstr ""
+
+#: personalize-login.php:555 templates/login_form.php:67
+#: templates/login_form.php:121 templates/_login_form.php:67
+#: templates/_login_form.php:119
+msgid "Login"
+msgstr ""
+
+#: personalize-login.php:559
+msgid "Password lost ?"
+msgstr ""
+
+#: personalize-login.php:563
+msgid "Reset password"
+msgstr ""
+
+#: personalize-login.php:993
+msgid "Please enter your e-mail address."
+msgstr ""
+
+#: personalize-login.php:996
+msgid "Please enter your password."
+msgstr ""
+
+#: personalize-login.php:999 personalize-login.php:1004
+msgid ""
+"We can not find your e-mail, maybe you have another one when you register?"
+msgstr ""
+
+#: personalize-login.php:1010
+#, php-format
+msgid "Bad password. <a href='%s'>Forgot your password ?</a>"
+msgstr ""
+
+#: personalize-login.php:1020
+msgid "Invalid E-mail address."
+msgstr ""
+
+#: personalize-login.php:1023
+msgid "This email address is already in use."
+msgstr ""
+
+#: personalize-login.php:1026
+msgid "You can not create an account at this time."
+msgstr ""
+
+#: personalize-login.php:1032
+msgid "No users found with this email address."
+msgstr ""
+
+#: personalize-login.php:1038 templates/login_form.php:8
+#: templates/_login_form.php:8
+msgid "The URL used to reset the password is no longer valid."
+msgstr ""
+
+#: personalize-login.php:1041
+msgid "The fields \"Passwords\" must be identical"
+msgstr ""
+
+#: personalize-login.php:1044
+msgid "Please fill in the fields \"Password\""
+msgstr ""
+
+#: personalize-login.php:1050
+msgid "A technical error has occurred. Please try again later."
+msgstr ""
+
+#: personalize-login.php:1372
+msgid "You are already logged in."
+msgstr ""
+
+#: personalize-login.php:1391
+msgid "Invalid password renewal URL."
+msgstr ""
+
+#: templates/login_form.php:71
+msgid "Create my account"
+msgstr ""
+
+#: templates/login_form.php:82 templates/_login_form.php:78
+#: templates/password_lost_form.php:32
+msgid "E-mail address"
+msgstr ""
+
+#: templates/login_form.php:93 templates/password_reset_form.php:41
+#: templates/_login_form.php:90
+msgid "Password"
+msgstr ""
+
+#: templates/login_form.php:128 templates/_login_form.php:126
+#: templates/password_lost_form.php:13
+msgid "Lost your password ?"
+msgstr ""
+
+#: templates/password_reset_form.php:13
+msgid "Reset your password ?"
+msgstr ""
+
+#: templates/password_reset_form.php:22
+msgid ""
+"In order to access your account you need a secure password. Fill in the 2 "
+"fields according to the rules below."
+msgstr ""
+
+#: templates/password_reset_form.php:24
+msgid "8 characters long"
+msgstr ""
+
+#: templates/password_reset_form.php:25
+msgid "Contains at least one uppercase"
+msgstr ""
+
+#: templates/password_reset_form.php:26
+msgid "Contains at least one lowercase"
+msgstr ""
+
+#: templates/password_reset_form.php:27
+msgid "Contains at least one digit"
+msgstr ""
+
+#: templates/password_reset_form.php:28
+msgid "Contains at least one of theses symbols"
+msgstr ""
+
+#: templates/password_reset_form.php:53
+msgid "Repeat password"
+msgstr ""
+
+#: templates/password_reset_form.php:82
+msgid "Validate Password"
+msgstr ""
+
+#: templates/register_form.php:13
+msgid "Register"
+msgstr ""
+
+#: templates/register_form.php:48
+msgid "Organization type"
+msgstr ""
+
+#: templates/register_form.php:69
+msgid "Organization name"
+msgstr ""
+
+#: templates/register_form.php:97
+msgid "General Interest"
+msgstr ""
+
+#: templates/register_form.php:102
+msgid ""
+"(?) To be eligible for a funding application, you must be an association of "
+"general interest."
+msgstr ""
+
+#: templates/register_form.php:112 templates/register_form.php:113
+msgid "Yes"
+msgstr ""
+
+#: templates/register_form.php:120 templates/register_form.php:121
+msgid "No"
+msgstr ""
+
+#: templates/register_form.php:140
+msgid "Description"
+msgstr ""
+
+#: templates/register_form.php:142
+msgid "(this text will be visible on your dedicated page)"
+msgstr ""
+
+#: templates/register_form.php:168 templates/register_form.php:429
+msgid "Required fields"
+msgstr ""
+
+#: templates/register_form.php:173 templates/register_form.php:434
+msgid "Continue"
+msgstr ""
+
+#: templates/register_form.php:198
+msgid "Dedicated contact first name"
+msgstr ""
+
+#: templates/register_form.php:213
+msgid "Dedicated contact last name"
+msgstr ""
+
+#: templates/register_form.php:243
+msgid "E-mail"
+msgstr ""
+
+#: templates/register_form.php:260
+msgid "Phone"
+msgstr ""
+
+#: templates/register_form.php:288
+msgid "Address"
+msgstr ""
+
+#: templates/register_form.php:314
+msgid "Zipcode"
+msgstr ""
+
+#: templates/register_form.php:330
+msgid "City"
+msgstr ""
+
+#: templates/register_form.php:356
+msgid ""
+"GPS coordinates are required to obtain the precise location of your "
+"association on our map."
+msgstr ""
+
+#: templates/register_form.php:360
+msgid ""
+"In order to get the precise GPS coordinates, you can add a point on the map "
+"by clicking on it."
+msgstr ""
+
+#: templates/register_form.php:362
+msgid "You can also move the marker with your mouse."
+msgstr ""
+
+#: templates/register_form.php:441 templates/register_form.php:708
+msgid "Back to previous step"
+msgstr ""
+
+#: templates/register_form.php:464
+msgid "Website"
+msgstr ""
+
+#: templates/register_form.php:480
+msgid "Instagram"
+msgstr ""
+
+#: templates/register_form.php:509
+msgid "Twitter"
+msgstr ""
+
+#: templates/register_form.php:525
+msgid "Facebook"
+msgstr ""
+
+#: templates/register_form.php:561
+msgid "Organization logo"
+msgstr ""
+
+#: templates/register_form.php:574 templates/register_form.php:631
+msgid "Uploader pending icon"
+msgstr ""
+
+#: templates/register_form.php:592 templates/register_form.php:650
+msgid "Choose a file"
+msgstr ""
+
+#: templates/register_form.php:600 templates/register_form.php:658
+msgid "Format jpg/png"
+msgstr ""
+
+#: templates/register_form.php:608
+msgid "Dimension : 500 x 500 px"
+msgstr ""
+
+#: templates/register_form.php:609
+msgid "Max weight : 500Ko"
+msgstr ""
+
+#: templates/register_form.php:618
+msgid "Organization cover"
+msgstr ""
+
+#: templates/register_form.php:666
+msgid "Dimension : 890 x 470 px"
+msgstr ""
+
+#: templates/register_form.php:667
+msgid "Max weight : 800Ko"
+msgstr ""
+
+#: templates/register_form.php:700
+msgid "Valid register"
+msgstr ""
+
+#: templates/password_lost_form.php:21
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+
+#: templates/password_lost_form.php:60
+msgid "New password"
+msgstr ""
+
+#. Name of the plugin
+msgid "Personalize Login"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin that replaces the WordPress login flow with a custom page."
+msgstr ""
+
+#. Author of the plugin
+msgid "Florent Desmis"
+msgstr ""

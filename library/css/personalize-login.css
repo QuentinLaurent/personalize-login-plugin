@@ -1,0 +1,84 @@
+
+.button-file {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #000;
+    outline: none;
+    color: #000;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: normal;
+    padding: 10px;
+    margin: 0;
+    z-index: 0;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.button-file:before,
+.button-file:after {
+    display: block;
+    opacity: 1;
+    margin-left: 0;
+    width: calc(100% + 1px);
+    height: calc(100% + 2px);
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.button-file:after {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    transform-origin: 100% 0%;
+}
+
+.button-file:before {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    transform-origin: 0 100%;
+    left: -1px;
+}
+
+.button-file:hover,
+.button-file:focus {
+    background-color: #fff;
+    color: #000;
+    border-color: transparent;
+}
+
+.button-file:hover:after{
+    transform: scale(1);
+}
+
+.button-file:hover:before{
+    transform: scale(1);
+}
+
+
+
+.button-file.icon {
+    padding-left: 25px;
+}
+
+.button-file .delete {
+    position: relative;
+}
+
+.file_name{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
