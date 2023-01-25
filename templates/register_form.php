@@ -80,6 +80,42 @@
 
                                         </div>
 
+                                        <div class="mt-5 w-100">
+
+                                            <div class="form-section-content row">
+
+                                                <div class="col-12 col-md-6 form-field-container">
+                                                    <label for="upcycling_switch">
+                                                        Êtes-vous dans le domaine du Upcycling ?
+                                                        <sup>*</sup>
+                                                    </label>
+
+                                                </div>
+
+                                                <div class="col-12 col-md-6 form-field-container">
+
+                                                    <div class="radiobutton">
+                                                        <input type="radio" name="upcycling_switch"
+                                                               id="upcycling_yes"
+                                                               class="form-element"
+                                                               value=" <?php _e( 'Yes', 'personalize-login' ); ?>">
+                                                        <label for="upcycling_yes"><?php _e( 'Yes', 'personalize-login' ); ?></label>
+                                                    </div>
+
+                                                    <div class="radiobutton">
+                                                        <input type="radio" name="upcycling_switch"
+                                                               id="upcycling_no"
+                                                               class="form-element"
+                                                               value=" <?php _e( 'No', 'personalize-login' ); ?>" checked>
+                                                        <label for="general_interest_no"><?php _e( 'No', 'personalize-login' ); ?></label>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
                                     </div>
 
                                 </div>

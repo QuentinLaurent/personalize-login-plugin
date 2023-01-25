@@ -254,6 +254,7 @@ class Personalize_Login_Plugin {
 			$_organization_type      = $_POST['organization_type'];
 			$_organization_name      = $_POST['organization_name'];
 			$_organization_interest  = $_POST['organization_interest'];
+			$_upcycling  = $_POST['upcycling'];
 			$_organization_caption   = $_POST['organization_caption'];
 			$_contact_phone          = $_POST['contact_phone'];
 			$_organization_address   = $_POST['organization_address'];
@@ -317,7 +318,8 @@ class Personalize_Login_Plugin {
 
 				$association_type_data = array(
 					'type'     => $_organization_type,
-					'interest' => $_organization_interest
+					'interest' => $_organization_interest,
+					'upcycling' => $_upcycling
 				);
 
 				$social_data = array(
@@ -791,6 +793,7 @@ class Personalize_Login_Plugin {
 
 		update_field( "type", $association_type_data['type'], $post_id );
 		update_field( "organisation_interet_general", trim( $association_type_data['interest'] ), $post_id );
+		update_field( "upcycling", trim( $association_type_data['upcycling'] ), $post_id );
 
 	}
 
@@ -1219,7 +1222,7 @@ class Personalize_Login_Plugin {
 
 		if ( ! is_wp_error( $user_id ) ) {
 			// SEND EMAIL NOTIFICATION TO USER
-			wp_new_user_notification( $user_id, $password );
+			//wp_new_user_notification( $user_id, $password );
 
 			// UPDATE THE PENDING STATUS FOR THE GIVEN USER
 			update_field( 'user_status', 'pending', 'user_' . $user_id . '' );

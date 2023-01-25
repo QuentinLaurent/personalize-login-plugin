@@ -369,6 +369,9 @@ jQuery(document).ready(function ($) {
             "general_interest_switch": {
                 required: true
             },
+            "upcycling_switch": {
+                required: true
+            },
             "caption_page": {
                 required: true
             },
@@ -433,6 +436,7 @@ jQuery(document).ready(function ($) {
             $_organization_type = $('form#register #organization_type').select2('data')[0]['id'];
             $_organization_name = $('form#register #organization_name').val();
             $_organization_interest = $('form#register input[name=general_interest_switch]:checked').val();
+            $_upcycling = $('form#register input[name=upcycling_switch]:checked').val();
             $_organization_caption = $('form#register #caption_page').val();
 
             // STEP 2
@@ -469,6 +473,7 @@ jQuery(document).ready(function ($) {
                     'organization_type': $_organization_type,
                     'organization_name': $_organization_name,
                     'organization_interest': $_organization_interest,
+                    'upcycling': $_upcycling,
                     'organization_caption': $_organization_caption,
                     'contact_phone': $_contact_phone,
                     'organization_address': $_organization_address,
