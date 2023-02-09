@@ -107,7 +107,7 @@
                                                                id="upcycling_no"
                                                                class="form-element"
                                                                value=" <?php _e( 'No', 'personalize-login' ); ?>" checked>
-                                                        <label for="general_interest_no"><?php _e( 'No', 'personalize-login' ); ?></label>
+                                                        <label for="upcycling_no"><?php _e( 'No', 'personalize-login' ); ?></label>
                                                     </div>
 
                                                 </div>
