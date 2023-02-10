@@ -86,7 +86,7 @@
 
                                                 <div class="col-12 col-md-6 form-field-container">
                                                     <label for="upcycling_switch">
-                                                        Êtes-vous dans le domaine du Upcycling ?
+                                                        Êtes-vous un acteur de l'Upcycling&nbsp;?
                                                         <sup>*</sup>
                                                     </label>
 
